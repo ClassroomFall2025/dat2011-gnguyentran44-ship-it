@@ -1,0 +1,21 @@
+#khai báo 1 list dãy số
+
+day_so = []
+while True:
+    so = input("Nhập số: ")
+    if so == 'q':
+        print("thoát chương trình")
+        break
+    else:
+        try:
+            phan_tu = int(so)
+            day_so.append(phan_tu)
+        except ValueError:
+            print("Vui lòng nhập đúng số hoặc q để thoát chương trình")
+print(day_so)
+#sắp xếp các dãy số tăng dần
+print(day_so)
+print("giá trị nhỏ nhất dảy số",day_so [0])
+print("giá trị lớn nhất dãy số",day_so[-1])
+#sắp xếp dãy số giảm dần
+
