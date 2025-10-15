@@ -39,8 +39,8 @@ class sinhvienXLDL:
         self.diem_sv=diem_sv
 
         def xuat_thong_tin(self):
-            sinhvien.__init__(self,ten_sv,namsinh_sv,diem_sv)
-            self.lap_trinh =lap_trinh
+            sinhvien.__init__(self,ten_sv,namsinh_sv,diem_sv) # type: ignore
+            self.lap_trinh =lap_trinh # type: ignore
 
             def xuat_thong_tin(self):
                 print(f"sinh vien.xuat_thong_tin(self) và học lập trình {self.lap_trinh}")
