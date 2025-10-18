@@ -13,7 +13,7 @@ class NhanVien:
                 return self.luong_cb + (self.doanh_so * self.hoa_hong)
             def hien_thi_thong_tin(self):
                 return f"ho_ten_sv la {self.ho_ten_nv}", f"luong_cb la {self.luong_cb}", f"so_gio_lam la {self.so_gio_lam}"
-            class Truongphong(NhanVien):
+        class Truongphong(NhanVien):
                 def __init__(self, ho_ten_nv, luong_cb, so_gio_lam, phu_cap):
                     super().__init__(ho_ten_nv=ho_ten_nv, luong_cb=luong_cb, so_gio_lam=so_gio_lam)
                     self.phu_cap =phu_cap
